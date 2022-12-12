@@ -2977,6 +2977,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #2e3842;
+			padding-bottom: 0;
 		}
 
 		.wrapper.style3 {
@@ -3997,3 +3998,21 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	.profile-about{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.profile-image {
+		width: 260px;
+		height: 320px;
+		border-radius: 10px;
+	}
+	
+	.icons.major  li  img{
+		height: 79px;
+		width: 79px;
+	}
+	
